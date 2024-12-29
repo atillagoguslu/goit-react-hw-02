@@ -1,8 +1,22 @@
-# React + Vite
+# Customer Satisfaction Feedback
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive React application for collecting customer satisfaction feedback. Users can provide feedback by selecting one of three options: good, neutral, or bad. The application tracks and displays feedback statistics in real-time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Easy-to-use interface for collecting feedback
+- Real-time feedback statistics
+- Reset functionality to clear all feedback data
+- Clean and responsive design
+
+## Usage
+
+The application allows users to:
+
+1. Submit positive feedback using the "Good" button
+2. Submit neutral feedback using the "Neutral" button
+3. Submit negative feedback using the "Bad" button
+4. View the total count of each feedback type
+5. Reset all feedback counts to zero
+
+Written with ❤️ by Atilla
